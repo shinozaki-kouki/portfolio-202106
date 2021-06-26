@@ -9,12 +9,6 @@
 .d-flex {
   display: flex;
 }
-.d-inline-flex {
-  display: inline-flex;
-}
-.d-none {
-  display: none;
-}
 .f-w {
   flex-wrap: wrap;
 }
@@ -36,53 +30,8 @@
 .jc-evenly {
   justify-content: space-evenly;
 }
-.ai-start {
-  align-items: flex-start;
-}
-.ai-end {
-  align-items: flex-end;
-}
 .ai-center {
   align-items: center;
-}
-.ai-baseline {
-  align-items: baseline;
-}
-.ai-stretch {
-  align-items: stretch;
-}
-.align-content-start {
-  align-content: flex-start;
-}
-.align-content-end {
-  align-content: flex-end;
-}
-.align-content-center {
-  align-content: center;
-}
-.align-content-between {
-  align-content: space-between;
-}
-.align-content-around {
-  align-content: space-around;
-}
-.align-content-stretch {
-  align-content: stretch;
-}
-.align-top {
-  vertical-align: top;
-}
-.align-middle {
-  vertical-align: middle;
-}
-.align-bottom {
-  vertical-align: bottom;
-}
-.align-text-bottom {
-  vertical-align: text-bottom;
-}
-.align-text-top {
-  vertical-align: text-top;
 }
 .text-start {
   text-align: left;
@@ -96,9 +45,6 @@
 .text-last-left{
   text-align-last: left;
 }
-.position-static {
-  position: static;
-}
 .position-relative {
   position: relative;
 }
@@ -108,26 +54,8 @@
 .position-fixed {
   position: fixed;
 }
-.position-sticky {
-  position: sticky;
-}
-.d-inline {
-  display: inline;
-}
-.d-inline-block {
-  display: inline-block;
-}
 .d-block {
   display: block;
-}
-.float-start {
-  float: left;
-}
-.float-end {
-  float: right;
-}
-.float-none {
-  float: none;
 }
 .fw-light {
   font-weight: 300;
@@ -209,30 +137,6 @@
 }
 .fd-column-reverse {
   flex-direction: column-reverse;
-}
-.order-first {
-  order: -1;
-}
-.order-0 {
-  order: 0;
-}
-.order-1 {
-  order: 1;
-}
-.order-2 {
-  order: 2;
-}
-.order-3 {
-  order: 3;
-}
-.order-4 {
-  order: 4;
-}
-.order-5 {
-  order: 5;
-}
-.order-last {
-  order: 6;
 }
 .m-0 {
   margin: 0;
@@ -1436,7 +1340,7 @@ table a {
 }
 
 .textReveal.rotateY {
-  perspective: 100px; /*adjust according to your need*/
+  perspective: 100px; 
 }
 
 .textReveal.rotateY > div {
